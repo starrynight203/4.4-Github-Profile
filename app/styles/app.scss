@@ -1,0 +1,45 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+  // padding-top: 10px;
+  // padding-bottom: 10px;
+  // height: 28px;
+  // width: 1280px;
+}
+
+.mega-octicon {
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+}
+
+.input-group {
+  display: inline-block;
+  font-size: 12px;
+  width:360px;
+  height: 28px;
+  line-height: 17px;
+  padding: 2px;
+}
+
+.nav {
+  display: inline-block;
+}
