@@ -171,9 +171,12 @@ ul {
   border-bottom: 1px solid #d5d5d5;
 }
 
-#third-template {
-  display: inline-block;
-  border-bottom: 1px solid #eee;
+.repos-list{
+ a{
+   font-size: 20px;
+   line-height: 1.2;
+}
+
 }
 
 // .repo-name {

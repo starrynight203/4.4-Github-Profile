@@ -4,9 +4,9 @@ var _ = require('underscore');
 var handlebars = require('handlebars');
 var baseUrl = 'https://api.github.com/users/starrynight203';
 var repoUrl = baseUrl + '/repos';
-var githubtoken = require('./githubtoken.js').token;
+var githubtoken;
 
-if(typeof(githubtoken) !== "undfined"){
+if(typeof(githubtoken) !== "undefined"){
   $.ajaxSetup({
     headers: {
       'Authorization': 'token ' + githubtoken,
