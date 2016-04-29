@@ -10,7 +10,7 @@
   <body>
     <div class="container-fluid">
       <div class="row heading">
-        <div class="col-sm-12 header">
+        <div class="col-md-12 header">
           <span class="mega-octicon octicon-mark-github"></span>
             <div class="input-group">
               <span class="input-group-btn"></span>
@@ -22,26 +22,14 @@
             <span><a href="#">Gist</a></span>
           </div>
           <div class="buttoncontainer">
-            <div class="btn-group leftbutton">
-              <button class="btn btn-default btn-xs dropdown-toggle plusbutton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mega-octicon octicon-plus"></span><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                  <!-- <li></li>
-                  <li></li>
-                  <li></li> -->
-              </ul>
+            <div class="btn-group plus-button">
+              <span class="octicon octicon-plus"></span>
+              <span class="caret"></span>
             </div>
 
             <div class="btn-group rightbutton">
-              <button class="btn btn-default btn-xs dropdown-toggle avatarbutton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="show-template"></span><span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                  <!-- <li></li>
-                  <li></li>
-                  <li></li> -->
-              </ul>
+              <span class="show-template"></span>
+              <span class="caret"></span>
             </div>
           </div>
         </div>
@@ -50,9 +38,9 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-3 side-nave"></div>
+        <div class="col-md-3 side-nave"></div>
 
-        <div class="col-sm-9 contributions">
+        <div class="col-md-9 contributions">
           <div class="workdone">
             <ul class="nav nav-tabs">
               <li role="presentation"><a href="#"><span class="octicon octicon-diff-added"></span>Contributions</a></li>
@@ -105,7 +93,7 @@
     </script>
 
     <script id="second-template" type="text/x-handlebars-template">
-      <img src="{{avatar_url}}" alt=""/>
+      <img src="{{avatar_url}}" alt="" height="230" width="230"/>
       <h1 class="name-login">
         <p class="name">{{name}}</p>
         <p class="login">{{login}}</p>
