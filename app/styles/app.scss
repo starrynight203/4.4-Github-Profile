@@ -24,21 +24,43 @@ ul {
   background-color: #f5f5f5;
 }
 .heading {
-  text-align: center;
+  // text-align: center;
 }
 
 .header {
-  max-width: 985px;
+  // max-width: 985px;
   border-bottom: 1px solid #e5e5e5;
   padding-top: 10px;
-  padding-bottom: 10px;
+  // padding-bottom: 10px;
+  padding-right: 91px;
+  padding-left: 91px;
 }
 
 .mega-octicon {
   display: inline-block;
   height: 28px;
   width: 28px;
+  width: 40px;
 }
+
+.search-github {
+  border-radius: 3px;
+  background-color: #fff;
+  display: table-cell;
+  border: 0;
+  box-shadow: none;
+  // padding: 7px 8px;
+  font-size: 15px;
+  color: #333;
+  vertical-align: middle;
+  display: inline-block;
+  width: 360px;
+  height: 28px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+
 
 .input-group {
   display: inline-block;
@@ -54,21 +76,25 @@ ul {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
+
   a {
-    font-weight: bold;
     font-family: helvetica;
-    font-size: 13px;
     text-decoration: none;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    // padding: 4px 8px 4px 8px;
     color: #333;
   }
 }
 
 .buttoncontainer {
   float: right;
-  margin-right: -8px;
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  // margin-right: -8px;
+  // padding: 0;
+  // margin-top: 0;
+  // margin-bottom: 0;
 }
 .plus-button {
   padding: 4px 8px 4px 8px;
