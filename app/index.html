@@ -92,7 +92,7 @@
     </script>
 
     <script id="second-template" type="text/x-handlebars-template">
-      <img src="{{avatar_url}}" alt="" height="230" width="230"/>
+      <a href="#"><img src="{{avatar_url}}" alt="" height="230" width="230"/></a>
       <h1 class="name-login">
         <p class="name">{{name}}</p>
         <p class="login">{{login}}</p>
@@ -104,17 +104,25 @@
         <li class="join-date"><span class="octicon octicon-clock"></span>
           {{created_at}}</li>
       </ul>
-
       <div class="sideList">
-        <ul class="side-list">
-          <li class="follow"><a href="{{followers_url}}">{{followers}}<span>Followers</span></a></li>
-          <li class="starred"><a href="">0<span>Starred</span></a></li>
-          <li class="followin"><a href="">{{following}}<span>Following</span></a></li>
-        </ul>
-      </div>
+          <div class="side-list">
+            <a href="https://github.com/{{login}}/followers">
+              <strong>{{followers}}</strong>
+              <span>Followers</span>
+            </a>
+            <a href="https://github.com/stars">
+              <strong>0</strong>
+              <span>Starred</span>
+            </a>
+            <a href="https://github.com/{{login}}/following">
+              <strong>{{following}}</strong>
+              <span>Following</span>
+            </a>
+          </div>
+        </div>
 
       <div class="organizations">
-        <h4><span>Organizations</span></h4>
+        <h3><span>Organizations</span></h3>
       </div>
     </script>
 

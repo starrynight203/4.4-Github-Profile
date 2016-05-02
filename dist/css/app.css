@@ -5899,12 +5899,17 @@ ul {
 .container {
   padding-top: 20px; }
 
-.side-nave img {
-  border-radius: 6px;
-  height: 230px;
-  width: 230px;
-  line-height: 1;
-  vertical-align: middle; }
+.side-nave {
+  width: 25%;
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px; }
+  .side-nave img {
+    border-radius: 5px;
+    height: 230px;
+    width: 230px;
+    line-height: 1;
+    vertical-align: middle; }
 
 .name-login {
   margin-top: 12px;
@@ -5912,7 +5917,8 @@ ul {
   .name-login .name {
     font-size: 26px;
     line-height: 30px;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-bottom: 0; }
 
 .name-login .login {
   font-size: 20px;
@@ -5921,15 +5927,35 @@ ul {
   line-height: 24px;
   color: #666; }
 
+.location {
+  font-size: 14px;
+  font-weight: 500; }
+
+.octicon-location {
+  width: 16px;
+  color: #999;
+  display: inline-block;
+  padding-right: 24px; }
+
+.octicon-clock {
+  width: 16px;
+  color: #999;
+  padding-right: 24px;
+  padding-top: 3px;
+  padding-bottom: 3px; }
+
+.join-date {
+  font-size: 14px;
+  font-weight: 500; }
+
 .sideBar-date {
   list-style: none;
   border-color: #eee;
   border-top: 1px #e5e5e5 solid;
   padding-top: 12px;
-  padding-bottom: 12px; }
+  padding-bottom: 12px;
+  padding-left: 0; }
   .sideBar-date li {
-    width: 100%;
-    max-width: 100%;
     font-size: 14px;
     padding-top: 3px;
     padding-bottom: 3px; }
@@ -5968,5 +5994,32 @@ ul {
 .repos-list a {
   font-size: 20px;
   line-height: 1.2; }
+
+.sideList .side-list {
+  padding-left: 0;
+  text-align: center;
+  border-bottom: 1px solid #d5d5d5;
+  padding: 8px 0 8px 0; }
+  .sideList .side-list a {
+    font-family: Helvetica;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 0 5px;
+    text-decoration: none; }
+    .sideList .side-list a:hover strong {
+      color: #4078c0; }
+    .sideList .side-list a:hover span {
+      color: #767676; }
+    .sideList .side-list a strong {
+      font-size: 28px; }
+    .sideList .side-list a span {
+      text-decoration: none;
+      color: #767676;
+      font-size: 13px; }
+
+.organizations h3 {
+  font-size: 16px;
+  font-weight: bold; }
 
 /*# sourceMappingURL=app.css.map */
