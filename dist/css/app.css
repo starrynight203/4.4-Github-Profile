@@ -1528,7 +1528,7 @@ pre {
       width: 970px; } }
   @media (min-width: 1200px) {
     .container {
-      width: 1170px; } }
+      width: 985px; } }
 
 .container-fluid {
   margin-right: auto;
@@ -5989,8 +5989,7 @@ ul {
 
 .searchinfo {
   display: inline-block;
-  border-bottom: 1px solid #d5d5d5;
-  padding-right: 162px; }
+  border-bottom: 1px solid #d5d5d5; }
 
 .repos-list a {
   font-size: 20px;

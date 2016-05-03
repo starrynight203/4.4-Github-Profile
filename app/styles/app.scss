@@ -2,7 +2,7 @@
 // Bootstrap Variables
 $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
-// $container-large-desktop: (985px);
+$container-large-desktop: (985px);
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
@@ -242,7 +242,6 @@ ul {
 .searchinfo {
   display: inline-block;
   border-bottom: 1px solid #d5d5d5;
-  padding-right: 162px;
 }
 
 .repos-list{
