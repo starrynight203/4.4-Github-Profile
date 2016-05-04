@@ -102,6 +102,16 @@ ul {
   }
 }
 
+.header-nav {
+  float: left;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  li {
+    display: inline-block;
+  }
+}
+
 .buttoncontainer {
   float: right;
   // margin-right: -8px;
@@ -253,6 +263,7 @@ ul {
 .searchinfo {
   display: inline-block;
   border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 2px;
 }
 
 .repos-list{
@@ -423,14 +434,18 @@ ul {
 }
 
 
+.repos-list{
+    h3 {
+      margin: 0 0 8px;
+      a {
+      text-decoration: none;
+      color: #4078c0;
+      font-size: 20px;
+      line-height: 1.2;
+    }
+  }
+}
 
-// .repo-name {
-//   h1 {
-//     text-decoration: none;
-//     color: red;
-//     font-size: 10px;
-//   }
-// }
 
 // .repos-list {
 //   padding-top: 30px;
