@@ -5832,14 +5832,12 @@ ul {
 
 .header {
   border-bottom: 1px solid #e5e5e5;
-  padding-top: 10px;
-  padding-right: 91px;
-  padding-left: 91px; }
+  padding-top: 10px; }
 
 .header ::-webkit-input-placeholder {
   color: #ccc; }
 
-.mega-octicon {
+.octicon-mark-github {
   display: inline-block;
   height: 28px;
   width: 28px;
@@ -5883,7 +5881,8 @@ ul {
     font-size: 13px;
     font-weight: bold;
     line-height: 20px;
-    color: #333; }
+    color: #333;
+    vertical-align: middle; }
 
 .buttoncontainer {
   float: right; }

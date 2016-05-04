@@ -36,15 +36,15 @@ ul {
   border-bottom: 1px solid #e5e5e5;
   padding-top: 10px;
   // padding-bottom: 10px;
-  padding-right: 91px;
-  padding-left: 91px;
+  // padding-right: 91px;
+  // padding-left: 91px;
 }
 
 .header ::-webkit-input-placeholder {
   color: #ccc;
 }
 
-.mega-octicon {
+.octicon-mark-github {
   display: inline-block;
   height: 28px;
   width: 28px;
@@ -96,6 +96,7 @@ ul {
     line-height: 20px;
     // padding: 4px 8px 4px 8px;
     color: #333;
+    vertical-align:middle;
   }
 }
 
