@@ -5950,7 +5950,8 @@ ul {
   color: #666; }
 
 .location {
-  font-size: 14px; }
+  font-size: 14px;
+  color: #333; }
 
 .octicon-location {
   width: 16px;
@@ -5966,7 +5967,8 @@ ul {
   padding-bottom: 3px; }
 
 .join-date {
-  font-size: 14px; }
+  font-size: 14px;
+  color: #333; }
 
 .sideBar-date {
   list-style: none;
@@ -6135,6 +6137,16 @@ ul {
     color: #fff;
     text-decoration: none; }
 
+.repos-list h3 {
+  margin: 0 0 8px; }
+  .repos-list h3 a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4078c0;
+    font-size: 20px;
+    line-height: 1.2;
+    display: inline-block; }
+
 .repos-list ul {
   float: right; }
   .repos-list ul li {
@@ -6147,14 +6159,21 @@ ul {
       font-weight: bold;
       color: #888; }
 
-.repos-list h3 {
-  margin: 0 0 8px;
-  display: inline-block; }
-  .repos-list h3 a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #4078c0;
-    font-size: 20px;
-    line-height: 1.2; }
+.repos-list .octicon {
+  font-size: 14px; }
+
+.repos-list p {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 13px;
+  color: #888; }
+
+.individual-repo {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  list-style: none;
+  border-bottom: 1px solid #eee; }
 
 /*# sourceMappingURL=app.css.map */
