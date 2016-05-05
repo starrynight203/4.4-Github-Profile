@@ -126,17 +126,21 @@
 
     <script id="third-template" type="text/x-handlebars-template">
       {{#each repo}}
-        <h3 class="repo-name"><a href"{{html_url}}">{{name}}</a></h3>
-        <ul>
-          <li>{{language}}</li>
-          <li>
-            <span class="octicon octicon-star"></span>{{stargazers_count}}
-          </li>
-          <li>
-            <span class="octicon octicon-git-branch"></span>{{forks}}
-          </li>
-        </ul>
+      <div class="individual-repo">
+        <h3 class="repo-name"><a href"{{html_url}}">{{name}}</a>
+          <ul>
+            <li><span>{{language}}</span></li>
+            <li>
+              <span class="octicon octicon-star"></span>{{stargazers_count}}
+            </li>
+            <li>
+              <span class="octicon octicon-git-branch"></span>{{forks}}
+            </li>
+          </ul>
+        </h3>
+
         <p>Updated {{updated_at}}</p>
+        </div>
       {{/each}}
     </script>
 
