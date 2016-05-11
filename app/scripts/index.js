@@ -4,6 +4,7 @@ var _ = require('underscore');
 var handlebars = require('handlebars');
 var baseUrl = 'https://api.github.com/users/starrynight203';
 var repoUrl = baseUrl + '/repos';
+var moment = require('moment');
 var githubtoken;
 
 if(typeof(githubtoken) !== "undefined"){
@@ -61,26 +62,19 @@ var compiledTemplatethree = templatethree({'repo': data});
 $('.repos-list').html(compiledTemplatethree);
 }
 
+// function datePicker(data){
+//   var date =new Date ($(data.created_at).selector);
+//   var shortMonth =['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov','Dec']
+//   var month = shortMonth[date.getMonth()];
+//   var day = date.getDate();
+//   var year = date.getYear() + 1900;
+//   var newDate = month + " " + day + " " + year;
+//   return newDate;
+// }
+
 //moment.js on top of page make new variable called var moment = require('moment');
 // function humanTime (data){
 // data = _.map(data, function(data){
 //   var newtime = new Date(data.update_at);
 //   return newtime;
 // });
-
-
-
-
-// function profilePic (data){
-// var source = $("#show-template").html();
-// var template = handlebars.compile(source);
-// var compiledTemplate = template(data);
-// $('.profilepic').html(compiledTemplate);
-// }
-//
-// function fullName (data){
-// var source = $("#show-template").html();
-// var template = handlebars.compile(source);
-// var compiledTemplate = template(data);
-// $('.fullname').html(compiledTemplate);
-// }
